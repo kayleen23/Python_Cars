@@ -1,0 +1,25 @@
+for varl in range(20, 1, -2):
+    print(varl) #countdown loop starting (20 to stepping -2
+else:
+    print("enough with loops")
+    Cars= ["VW", "BMW", "Ford", "Mazda", "Tata"]
+    for myCars in Cars:
+        print(myCars)
+        if myCars=="Ford":
+            break#it will stop at Ford
+            #IF PRINT IS PUT HERE IT WILL STOP AT FORD ,FORD WONT BE PRINTED
+Cars = ["VW", "BMW", "Ford", "Mazda", "Tata"]
+for myCars in Cars:
+    if myCars == "Ford":
+        continue#WILL SKIP FORD
+    print(myCars)
+Cars = ["VW", "BMW", "Ford", "Mazda", "Tata"]
+bike = ["Susuki", "Kawasaki", "Honda", "Ducatti", "Vuka"]
+for myCars in Cars:
+    for myBikes in bike:
+        print(myCars, myBikes) #adds bikes to cars in order
+
+for i in range(1, 6, +1):
+    print("* "*i)
+for j in range(6,0, -1):
+    print("*  "*j)
